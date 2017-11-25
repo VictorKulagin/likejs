@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+	<div>
+		<label><input type="checkbox"  id="one" onchange="fun1()">Выбрать</label>
+    </div>
+
+    <div>
+		<input type="radio"  name="r1" value="5">0
+		<input type="radio"  name="r1" value="6">1
+		<input type="radio"  name="r1" value="7">2
+		<button onclick="fun2()">Проверить</button>
+	</div>
+
+	<div>
+		<select name="" id="mySelect" onchange="fun3()">
+			<option value="">11</option>
+			<option value="">22</option>
+			<option value="">33</option>
+			<option value="">44</option>
+		</select>
+	</div>
+
+	<div>
+		<input type="range" min="0" max="100" step="1" oninput="fun4()" id="range1">
+		<p id="one1"></p>
+	</div>	
+	<script src="js/input.js"></script>
+</body>
+</html>
+
